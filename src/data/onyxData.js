@@ -96,7 +96,7 @@ export const allProjects = [
     repo_url: null,
     image: null,
     tech: ["C#", ".NET", "Windows Forms", "RS-232", "HIL"],
-    featured: false,
+    featured: true,
   },
   {
     name: "WoLET",
@@ -109,7 +109,7 @@ export const allProjects = [
     repo_url: null,
     image: null,
     tech: ["Angular", "FastAPI", "PostgreSQL", "Azure AD", "Kubernetes"],
-    featured: false,
+    featured: true,
   },
   {
     name: "DivOps",
@@ -122,7 +122,7 @@ export const allProjects = [
     repo_url: null,
     image: null,
     tech: ["Angular", "TypeScript", "RxJS", "PrimeNG", "OAuth2/JWT"],
-    featured: false,
+    featured: true,
   },
   {
     name: "LearnOps",
@@ -135,7 +135,7 @@ export const allProjects = [
     repo_url: null,
     image: null,
     tech: ["Angular", "TypeScript", "RxJS", "SSO/OIDC", "REST APIs"],
-    featured: false,
+    featured: true,
   },
   {
     name: "ragpipe",
@@ -148,7 +148,7 @@ export const allProjects = [
     repo_url: "https://github.com/shivamongit/ragpipe",
     image: null,
     tech: ["Python", "FAISS", "OpenAI", "Hybrid Search"],
-    featured: true,
+    featured: false,
   },
   {
     name: "docmind",
@@ -199,6 +199,32 @@ export const allProjects = [
     repo_url: "https://github.com/shivamongit/nexus-synth",
     image: null,
     tech: ["TypeScript", "Web Audio API"],
+    featured: false,
+  },
+  {
+    name: "vanish",
+    tag: "Open Source · Chrome Extension",
+    description:
+      "Privacy-first Chrome extension that clears a site's history, cookies, cache, and form data in one click.",
+    details:
+      "Manifest V3 extension built with React and TypeScript for scoped site data removal.",
+    live_url: null,
+    repo_url: "https://github.com/shivamongit/vanish",
+    image: null,
+    tech: ["TypeScript", "React", "Chrome MV3"],
+    featured: false,
+  },
+  {
+    name: "obsidian-beats",
+    tag: "Personal Project · Music",
+    description:
+      "Browser wavetable synth and drum machine with AI-generated patches and beats from natural-language prompts.",
+    details:
+      "Web Audio synthesis engine with OpenAI-driven patch and pattern generation in TypeScript.",
+    live_url: null,
+    repo_url: "https://github.com/shivamongit/obsidian-beats",
+    image: null,
+    tech: ["TypeScript", "Web Audio", "OpenAI"],
     featured: false,
   },
 ];
