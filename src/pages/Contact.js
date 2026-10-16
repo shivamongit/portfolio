@@ -24,6 +24,7 @@ const Contact = () => {
       </div>
 
       <center>
+        <p id="emailPhone"><a href="tel:+919871031429">📞+91 9871031429</a>  <a href="mailto:shivam.akka@outlook.com" target="_blank" id="email"> 📧 shivam.akka@outlook.com</a></p>
         <hr className="style-f" />
       </center>
       <p className="copyright">

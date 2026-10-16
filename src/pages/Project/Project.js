@@ -1,7 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import "./Project.css"
-import Tilt from 'react-tilt'
+import {Tilt} from 'react-tilt'
 
 const Project = (props) => {
     return <div className="fluid-container">
