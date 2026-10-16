@@ -1,12 +1,13 @@
 # Shivam Shasheesh — Portfolio
 
-Personal portfolio for Shivam Shasheesh, Senior Software Engineer at ZF Group. Same layout as the reference React portfolio: gradient theme, loader, about, experience, skills, projects, and contact.
+Personal portfolio based on [nodeanurag/dhirendra_sirji_portfolio](https://github.com/nodeanurag/dhirendra_sirji_portfolio). Built with React 19, Vite, Tailwind CSS v4, and Framer Motion.
 
-Live site: https://portfolio-shivamongit.vercel.app/
-
-Content lives in `src/portfolio.js`.
+Content lives in `src/data/onyxData.js`.
 
 ```bash
 npm install
-npm start
+npm run dev
+npm run build
 ```
+
+Live: https://portfolio-shivamongit.vercel.app/
