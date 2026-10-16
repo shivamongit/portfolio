@@ -8,10 +8,10 @@ import { basics } from "../data/onyxData";
 const serif = { fontFamily: '"Instrument Serif", Georgia, serif' };
 
 const HEADLINE_TITLES = [
-  "Senior Software Engineer",
-  "AI Platform Engineer",
-  "Full-Stack Developer",
-  "RAG Systems Builder",
+  "Senior Software Engineer @ ZF Group",
+  "AI Platform Engineering",
+  "Azure OpenAI & RAG",
+  "Full-Stack · Angular, Python, C#",
 ];
 
 export default function Hero() {
